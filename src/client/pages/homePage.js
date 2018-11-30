@@ -8,7 +8,7 @@ class HomePage extends Component {
     head(){
       return (
         <Helmet bodyAttributes={{class: "homePage"}}>
-          <title>{`Home Page - React Starter Kit`}</title>
+          <title>{`Home Page - DevOpsGirls`}</title>
         </Helmet>
       );
     }
@@ -20,13 +20,13 @@ class HomePage extends Component {
           <div className="hero">
             <div className="content_wrap">
               <h1>
-                Your slogan here
+                DevOpsGirls
               </h1>
               <span className="msg">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non illo, alias animi iusto neque, sint corrupti? Laudantium, dignissimos id excepturi facilis, facere saepe quasi placeat praesentium ipsa sapiente illo molestiae?
               </span>
               <Link to="/about">
-                <span>Learn more</span>
+                <span>About us</span>
               </Link>
             </div>
             <div className="pageScroll">
